@@ -1,0 +1,25 @@
+dl > div {
+    background: #FFF;
+    padding: 24px 0 0 0;
+  }
+
+
+
+  
+dt{
+    background: lightgray;
+    padding: .5rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+dd{
+    border-top: 1px solid #CCC;
+    padding: 15px;
+}
+
+dd::before{
+    content: "\1F4DE";
+    margin-right: 10px;
+}
