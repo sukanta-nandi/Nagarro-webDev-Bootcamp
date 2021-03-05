@@ -1,0 +1,19 @@
+.hover-button{
+    top: 35%;
+    font-size: 70px;
+    padding: 35px;
+    cursor: pointer;
+    background-color: black;
+    color: darkorange;
+    border: 4px solid darkorange;
+    position: absolute;
+    left: 35%;
+    transition: 0.5s;
+}
+
+.hover-button:hover {
+    color: white;
+    border: 4px solid yellowgreen;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px yellowgreen;
+}
